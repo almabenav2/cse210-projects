@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Unit01
 {
@@ -37,6 +38,8 @@ namespace Unit01
             Console.WriteLine($"{board[6]}|{board[7]}|{board[8]}");
         }
 
+<<<<<<< HEAD
+=======
         static bool IsGameOver(List<string> board)
         {
             bool isGameOver = false;
@@ -114,5 +117,6 @@ namespace Unit01
 
         }
 
+>>>>>>> 47dd499d1b99d5977bca9542670bf6709e973228
     }
 }
