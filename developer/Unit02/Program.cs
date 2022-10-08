@@ -1,12 +1,21 @@
-﻿using System;
+﻿using cse210.Game;
 
-namespace Unit02
+
+namespace cse210
 {
+    /// <summary>
+    /// The program's entry point.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Starts the program using the given arguments.
+        /// </summary>
+        /// <param name="args">The given arguments.</param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Director director = new Director();
+            director.StartGame();
         }
     }
 }
