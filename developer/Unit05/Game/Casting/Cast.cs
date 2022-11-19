@@ -17,6 +17,7 @@ namespace Unit05.Game.Casting
         /// <summary>
         /// Constructs a new instance of Cast.
         /// </summary>
+
         public Cast()
         {
         }
@@ -116,6 +117,5 @@ namespace Unit05.Game.Casting
                 actors[group].Remove(actor);
             }
         }
-
     }
 }
